@@ -15,22 +15,22 @@ class income
 		    {
 		        System.out.println("Enter the valid income");
 		    }
-		    if(i<=150000)
+		    if(i<=250000)
 		    {
 		        j=0;
 		        System.out.println("Tax:"+j);
 		    }
-		    if(i>150000&&i<=300000)
+		    if(i>250001&&i<=500000)
 		    {
 		        j=i*10/100;
 		        System.out.println("Tax:"+j);
 		    }
-		    if(i>300000&&i<=500000)
+		    if(i>500001&&i<=1000000)
 		    {
 		        j=i*20/100;
 		        System.out.println("Tax:"+j);
 		    }
-		    if(i>500000)
+		    if(i>1000000)
 		    {
 		        j=i*30/100;
 		        System.out.println("Tax:"+j);
